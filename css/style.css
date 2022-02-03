@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poppins:900italic&display=swap);
+
+
+h1{
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 64px;
+    color:chartreuse;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: -5px -5px 0.5px rgb(143, 179, 16);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav ul{
+    text-decoration: none;
+}
+h2{
+    font-family: "Supermercado",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: forestgreen;
+    font-size: 48px;
+    text-shadow: 3px 2px 0.3px rgb(110, 143, 48);
+    text-transform: none;
+}
+.paragraph{
+    text-align: right;
+}
+p{
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    color: olive;
+}
+.health p{
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 32px;
+    color: rgb(143, 11, 11);
+    text-align: right;
+    text-decoration: underline;
+}
+@font-face {
+    font-family: "Comforter";
+    src: url("../fonts/Comforter-Regular.woff2"), url("../fonts/Comforter-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+}
+nav{
+    text-decoration: none;
+}
+ul{
+    font-family: "Comforter",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: orangered;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    line-height: 2;
+    font-size: 32px;
+}
+@font-face {
+    font-family: "ZenKurenaido";
+    src: url("../fonts/ZenKurenaido-Regular.woff2"), url("../fonts/ZenKurenaido-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+}
+ol{
+    font-family: "ZenKurenaido",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: orange;
+    font-size: 30px;
+    text-align: justify;
+    text-shadow: 3px 2px 15px rgb(97, 46, 11);
+    text-transform: uppercase;
+}
+.emotion{
+    color: rgb(116, 9, 9);
+    font-size: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
